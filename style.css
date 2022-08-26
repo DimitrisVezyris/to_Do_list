@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+:root {
+    --mc: rgb(147, 221, 196);
+    --bg: #333;
+    --th: rgb(0, 139, 93);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Yanone Kaffeesatz' Light 300;
+    font-size: 28px;
+    background-color: var(--bg);
+    color: var(--mc);
+}
+
+.toDo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+th{
+    color: var(--th);
+}
+
+th, td{
+    padding: 0.5px;
+    border-collapse: collapse;
+}
+
+table, th, td{
+    border: 1px solid var(--mc);
+}
+
+input{
+    font-size: 1vw;
+    margin: 0.5vw;
+    background-color: var(--bg);
+    color: var(--mc);
+}
+
+::placeholder{
+    color: var(--mc);
+}
